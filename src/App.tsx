@@ -1,11 +1,11 @@
-import React from "react";
-import "./App.css";
-import SpinButton from "./components/SpinButton";
+import React from 'react';
+import './App.css';
+import PersonCount from './components/PersonCount';
 
 function App() {
   return (
     <div className="App">
-      <SpinButton />
+      <PersonCount />
     </div>
   );
 }
